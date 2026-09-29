@@ -1,7 +1,6 @@
 #!/bin/bash
 
 set -euo pipefail
-set -x
 
 QE_VERSION="${QE_VERSION:-7.6}"
 QE_PREFIX="${QE_PREFIX:-$HOME/.local/quantum-espresso}"
